@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Listaprincipal from './CamiloApp';
 
-ReactDOM.render(<Aapp />, document.getElementById('root'));
+ReactDOM.render(<Listaprincipal/>, document.getElementById('root'));
 
 
 serviceWorker.unregister();
